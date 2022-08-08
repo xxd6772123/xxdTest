@@ -1,0 +1,3 @@
+include ':xxd'
+include ':app'
+rootProject.name = "工具开发"

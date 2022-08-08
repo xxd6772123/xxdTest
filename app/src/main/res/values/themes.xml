@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.XPageBaseJava" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/xpage_default_actionbar_color</item>
+        <item name="colorPrimaryDark">@color/xpage_default_actionbar_color</item>
+        <item name="colorAccent">@color/xpage_default_actionbar_color</item>
+    </style>
+</resources>
