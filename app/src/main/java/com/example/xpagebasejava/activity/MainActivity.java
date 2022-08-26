@@ -10,6 +10,7 @@ import com.example.xpagebasejava.databinding.ActivityMainBinding;
 import com.example.xpagebasejava.fragment.FeatureFragment;
 import com.example.xpagebasejava.fragment.HomeFragment;
 import com.example.xpagebasejava.fragment.ToolFragment;
+import com.example.xxd.XxdTest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,6 +24,12 @@ public class MainActivity extends BaseTabFragmentHomeActivity<ActivityMainBindin
         binders.add(new FragmentViewBinder(ToolFragment.class, R.id.tvTool));
         binders.add(new FragmentViewBinder(FeatureFragment.class, R.id.tvFeature));
         return binders;
+    }
+
+    @Override
+    protected void initView() {
+        super.initView();
+        int calculate = new XxdTest().calculation(512);
     }
 
     @Override
