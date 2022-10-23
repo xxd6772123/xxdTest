@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <FrameLayout
+        android:id="@+id/fl_splash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".base.BaseSplashActivity" android:tag="layout/activity_base_splash_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+        <com.xxd.common.basic.view.RoundImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</layout>
+         

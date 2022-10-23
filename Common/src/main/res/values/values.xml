@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="StkHighTempColor"/>
+    <attr format="dimension" name="StkLineWidth"/>
+    <attr format="color" name="StkLowTempColor"/>
+    <attr format="color" name="StkSecondWaveColor"/>
+    <attr format="color" name="StkWaveBgColor"/>
+    <attr format="color" name="StkWaveColor"/>
+    <attr format="dimension" name="StkWaveHeight"/>
+    <attr format="dimension" name="StkWaveWidth"/>
+    <attr format="dimension" name="stkBarWidth"/>
+    <attr format="color" name="stkBgColor"/>
+    <attr format="boolean" name="stkEnableLeftBottom"/>
+    <attr format="boolean" name="stkEnableLeftTop"/>
+    <attr format="boolean" name="stkEnableRightBottom"/>
+    <attr format="boolean" name="stkEnableRightTop"/>
+    <attr format="color" name="stkProgressColor"/>
+    <attr format="float" name="stkStartAngle"/>
+    <attr format="float" name="stkSweepAngle"/>
+    <attr format="integer" name="stk_animator_time"/>
+    <attr format="boolean" name="stk_can_back_rotate"/>
+    <attr format="boolean" name="stk_can_back_scale"/>
+    <attr format="boolean" name="stk_can_back_translate"/>
+    <attr format="dimension" name="stk_corner"/>
+    <attr format="dimension" name="stk_corner_radius"/>
+    <attr format="dimension" name="stk_lb_radius"/>
+    <attr format="dimension" name="stk_lt_radius"/>
+    <attr format="float" name="stk_max_scale_factor"/>
+    <attr format="float" name="stk_min_scale_factor"/>
+    <attr format="reference|color" name="stk_normal_color"/>
+    <attr format="reference|color" name="stk_press_color"/>
+    <attr format="dimension" name="stk_rb_radius"/>
+    <attr format="dimension" name="stk_rt_radius"/>
+    <attr format="reference|color" name="stk_stroke_color"/>
+    <attr format="dimension" name="stk_stroke_width"/>
+    <attr format="dimension" name="stk_x_radius"/>
+    <attr format="dimension" name="stk_y_radius"/>
+    <color name="stk_agreement_highLight_color0">#FF0000</color>
+    <color name="stk_agreement_highLight_color1">#639EDF</color>
+    <color name="stk_agreement_highLight_color2">#F45977</color>
+    <color name="stk_agreement_highLight_color3">#B9EE4C</color>
+    <color name="stk_agreement_highLight_color4">#E73255</color>
+    <color name="stk_agreement_highLight_color5">#639EDF</color>
+    <color name="stk_agreement_highLight_color6">#3D73F3</color>
+    <color name="stk_agreement_highLight_color7">#797BE8</color>
+    <color name="stk_xpopup_confirm_color_1">#FF8960</color>
+    <color name="stk_xpopup_confirm_color_2">#FF62A5</color>
+    <color name="stk_xpopup_confirm_color_3">#50F6CF</color>
+    <dimen name="common_content_size">16sp</dimen>
+    <item name="cbRead" type="id"/>
+    <item name="ivApp" type="id"/>
+    <item name="tvContent" type="id"/>
+    <item name="tvTitle" type="id"/>
+    <item name="viewAgree" type="id"/>
+    <item name="viewNoAgree" type="id"/>
+    <string name="common_again_to_exit">再按一次退出应用</string>
+    <string name="common_agree">同意</string>
+    <string name="common_agreement_cb_content">我已阅读并同意上述条款</string>
+    <string name="common_agreement_checked_tip">请先勾选我已阅读并同意条款</string>
+    <string name="common_agreement_content0">亲爱的用户，欢迎使用%1$s。为了保护您的隐私和个人信息，在您使用本应用前请认真阅读《隐私政策》和《用户协议》，在您同意并接受这些条款后方可使用本应用。</string>
+    <string name="common_agreement_content1">我们将通过《隐私政策》、《用户协议》帮助您了解我们收集、使用、储存和共享个人信息的情况，以及您所享有的相关权利。请在使用本应用前，认真阅读并同意接受这些条款后方可使用本应用。\n\n您可以在相关界面管理您的授权。</string>
+    <string name="common_agreement_content2">欢迎使用%1$s！%2$s非常重视您的隐私和个人信息保护。在您使用%3$s前，请认真阅读《隐私政策》及《用户协议》，您同意并接受全部条款后方可开始使用%3$s。</string>
+    <string name="common_agreement_content3">欢迎使用%1$s，请充分阅读并理解《隐私政策》和《用户协议》，点击“同意”按钮代表您已知晓隐私政策并同意前述协议及接受%2$s的全部功能服务。</string>
+    <string name="common_agreement_content4">感谢您使用%1$s !\n我们非常重视您的隐私和个人信息保护。在您使用前，请认真阅读：《隐私政策》和《用户协议》。我们将严格按照前述政策，为您提供更好的服务。如您同意该隐私政策，请点击“同意”并开始使用我们的产品及服务。</string>
+    <string name="common_not_agree">不同意</string>
+    <string name="common_not_agree_exit">不同意并退出</string>
+    <string name="common_not_use_now">暂不使用</string>
+    <string name="common_personal_info_protected">个人信息保护指引</string>
+    <string name="common_privacy">隐私政策</string>
+    <string name="common_sy_privacy">《隐私政策》</string>
+    <string name="common_sy_user_protocol">《用户协议》</string>
+    <string name="common_user_privacy">用户隐私协议</string>
+    <string name="common_warm_tips">温馨提示</string>
+    <string name="common_welcome_use_fmt">欢迎使用%1$s</string>
+    <style name="BaseDialog" parent="@android:style/Theme.Dialog">
+        <!--半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--模糊-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="LoadingDialog">
+        <!--对话框背景 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!--没有标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 是否浮现在Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!--背景透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 是否有覆盖 -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--背景变暗-->
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <declare-styleable name="CircleBarView">
+        <attr name="stkProgressColor"/>
+        <attr name="stkBgColor"/>
+        <attr name="stkBarWidth"/>
+        <attr name="stkStartAngle"/>
+        <attr name="stkSweepAngle"/>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr format="dimension" name="civ_border_width"/>
+        <attr format="color" name="civ_border_color"/>
+        <attr format="boolean" name="civ_border_overlay"/>
+        <attr format="color" name="civ_fill_color"/>
+    </declare-styleable>
+    <declare-styleable name="CircleRelativeLayoutLayout">
+        <attr format="color" name="background_color"/>
+        <attr format="integer" name="background_alpha"/>
+    </declare-styleable>
+    <declare-styleable name="CircularProgressView">
+        <attr format="dimension" name="backWidth"/>    <!--背景圆环宽度-->
+        <attr format="dimension" name="progWidth"/>    <!--进度圆环宽度-->
+        <attr format="color" name="backColor"/>        <!--背景圆环颜色-->
+        <attr format="color" name="progColor"/>        <!--进度圆环颜色-->
+        <attr format="color" name="progStartColor"/>   <!--进度圆环开始颜色-->
+        <attr format="color" name="progFirstColor"/>   <!--进度圆环结束颜色-->
+        <attr format="integer" name="progress"/>       <!--圆环进度-->
+    </declare-styleable>
+    <declare-styleable name="CropScanImgView">
+        <attr format="reference" name="cornerBmp"/>
+        <attr format="color" name="lineColor"/>
+        <attr format="dimension" name="lineWidth"/>
+        <attr format="color" name="scanColor"/>
+        <attr format="color" name="shadowColor"/>
+    </declare-styleable>
+    <declare-styleable name="DiskClockView">
+        <attr format="dimension" name="borderWidth"/>
+        <attr format="color" name="borderColor"/>
+        <attr format="color" name="circleBackground"/>
+        <attr format="color" name="minScaleColor"/>
+        <attr format="color" name="midScaleColor"/>
+        <attr format="color" name="maxScaleColor"/>
+        <attr format="dimension" name="minScaleLength"/>
+        <attr format="dimension" name="midScaleLength"/>
+        <attr format="dimension" name="maxScaleLength"/>
+        <attr format="color" name="textColor"/>
+        <attr format="dimension" name="textSize"/>
+        <attr format="boolean" name="isDrawText"/>
+        <attr format="color" name="secondPointerColor"/>
+        <attr format="color" name="minPointerColor"/>
+        <attr format="color" name="hourPointerColor"/>
+        <attr format="dimension" name="secondPointerLength"/>
+        <attr format="dimension" name="minPointerLength"/>
+        <attr format="dimension" name="hourPointerLength"/>
+        <attr format="dimension" name="secondPointerSize"/>
+        <attr format="dimension" name="minPointerSize"/>
+        <attr format="dimension" name="hourPointerSize"/>
+        <attr format="color" name="centerPointColor"/>
+        <attr format="dimension" name="centerPointSize"/>
+        <attr format="dimension" name="centerPointRadiu"/>
+        <attr format="string" name="centerPointType"/>
+        <attr format="boolean" name="isSecondGoSmooth"/>
+    </declare-styleable>
+    <declare-styleable name="IndexBar">
+        <attr format="color" name="normalColor"/>
+        <attr format="color" name="selectColor"/>
+        <attr format="dimension" name="indexSize"/>
+        <attr format="dimension" name="indexInterval"/>
+    </declare-styleable>
+    <declare-styleable name="InputUnitView">
+        <attr format="color" name="etColor"/>
+        <attr format="dimension" name="etSize"/>
+        <attr format="color" name="unitColor"/>
+        <attr format="dimension" name="unitSize"/>
+        <attr format="string" name="unitText"/>
+        <attr format="flags" name="android:inputType"/>
+    </declare-styleable>
+    <declare-styleable name="MarqueeTextView">
+        <attr format="integer" name="scroll_interval"/>
+        <attr format="integer" name="scroll_first_delay"/>
+        <attr name="scroll_mode">
+            <enum name="mode_forever" value="100"/>
+            <enum name="mode_once" value="101"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundButton">
+        <attr name="stk_corner"/>
+        <attr name="stk_press_color"/>
+        <attr name="stk_normal_color"/>
+        <attr name="stk_stroke_width"/>
+        <attr name="stk_stroke_color"/>
+        <attr name="rb_type">
+            <enum name="ok" value="1"/>
+            <enum name="info" value="2"/>
+            <enum name="warning" value="3"/>
+            <enum name="error" value="4"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr format="dimension" name="border_radius"/>
+
+        <!--<attr name="stk_x_radius" />
+        <attr name="stk_y_radius" />
+        <attr name="stkEnableLeftTop" />
+        <attr name="stkEnableLeftBottom" />
+        <attr name="stkEnableRightTop" />
+        <attr name="stkEnableRightBottom" />-->
+
+    </declare-styleable>
+    <declare-styleable name="RoundTextView">
+        <attr format="color" name="rtvBgColor"/>
+        <attr format="dimension" name="rtvBorderWidth"/>
+        <attr format="dimension" name="rtvBorderColor"/>
+        <attr format="dimension" name="rtvRadius"/>
+    </declare-styleable>
+    <declare-styleable name="StkContainerStyle">
+        <attr name="stk_corner_radius"/>
+        <attr name="stk_lt_radius"/>
+        <attr name="stk_rt_radius"/>
+        <attr name="stk_lb_radius"/>
+        <attr name="stk_rb_radius"/>
+    </declare-styleable>
+    <declare-styleable name="TextSwitch">
+        <attr format="reference|color" name="itemBg"/>
+        <attr format="reference" name="textList"/>
+        <attr format="color|reference" name="android:textColor"/>
+        <attr format="dimension" name="android:textSize"/>
+    </declare-styleable>
+    <declare-styleable name="TransformImageView">
+        <attr name="stk_min_scale_factor"/>
+        <attr name="stk_max_scale_factor"/>
+        <attr name="stk_can_back_translate"/>
+        <attr name="stk_can_back_rotate"/>
+        <attr name="stk_can_back_scale"/>
+        <attr name="stk_animator_time"/>
+    </declare-styleable>
+    <declare-styleable name="WaveProgressView">
+        <attr name="StkWaveColor"/>
+        <attr name="StkSecondWaveColor"/>
+        <attr name="StkWaveBgColor"/>
+        <attr name="StkWaveWidth"/>
+        <attr name="StkWaveHeight"/>
+    </declare-styleable>
+    <declare-styleable name="WeatherTempTrendView">
+        <attr name="StkHighTempColor"/>
+        <attr name="StkLowTempColor"/>
+        <attr name="StkLineWidth"/>
+    </declare-styleable>
+</resources>

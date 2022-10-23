@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stark.common.basic.view.container.StkLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:id="@+id/ll_dialog"
+    app:stk_corner_radius="15dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_container"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/stk_xpopup_header_1"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:lines="1"
+        android:textColor="#262628"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="25dp"
+        android:text=""
+        android:textColor="#262628"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="186dp"
+            android:layout_height="41dp"
+            android:background="@drawable/stk_xpopup_confirm_1"
+            android:gravity="center"
+            android:text="@string/xpopup_ok"
+            android:textColor="@color/_xpopup_white_color"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_middle"
+            android:layout_width="186dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/xpopup_save"
+            android:textColor="@color/_xpopup_white_color"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="186dp"
+            android:layout_height="41dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/xpopup_cancel"
+            android:textColor="#CBC9D8"
+            android:textSize="16sp" />
+    </LinearLayout>
+</stark.common.basic.view.container.StkLinearLayout>
