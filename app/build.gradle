@@ -49,7 +49,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     //测试依赖包
     implementation 'com.github.xxd6772123:xxdTest:v1.0'
-
+    implementation 'com.gitee.XiaoDanIsMe:xxdjava-common:v1.0'
     // XPage
     implementation 'com.github.xuexiangjys.XPage:xpage-lib:3.3.0'
     annotationProcessor 'com.github.xuexiangjys.XPage:xpage-compiler:3.3.0'
